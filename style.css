@@ -1,0 +1,15 @@
+.navbar {
+    overflow: hidden;
+    background-color: #c7642f;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .navbar_items{
+       height: 50px;
+       align-items: center;
+    }

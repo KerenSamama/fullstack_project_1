@@ -5,21 +5,27 @@ body {
    width: 100%;
    margin: auto;
    font-size: 1em;
-   background-image: url("");
+   
    height: auto;
-   background-size: cover;
- background-color: rgb(251, 235, 210);
+   
+   background-color: rgb(251, 235, 210);
+   display: flex;
+   
+
+   flex-direction: column;
  }
  .navbar{
    position: sticky;
    display: flex;
    flex-wrap: wrap;
-   
+   width: 100%;
+
  }
  
 .navbar_items{
    background-color: rgb(230, 153, 94);
    color: rgb(137, 71, 34);
+   text-decoration-thickness: 5px;
    padding: 15px;
    flex-grow: 1;
    text-decoration: none;
@@ -30,12 +36,35 @@ body {
   
 }
 
+header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.logo_image{
+   border-radius: 50%;
+   width: 60%;
+   max-width: 500px;
+   opacity: 0.5;
+   display: block;
+   margin:  auto;
 
+}
 
  .banner {
+   color:rgb(137, 71, 34);
+   font-size: 1.5em;
    text-align: center;
    margin: auto;
    line-height: 2em;
+   
+   
+ 
+   border-radius: 50%;
+   width: 60%;
+   max-width: 500px;
+   
+   
  }
  
  .logo {

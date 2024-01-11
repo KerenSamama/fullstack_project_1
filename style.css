@@ -2,18 +2,36 @@ html{
    font-size: 20px;
 }
 body {
-   max-width: 1200px;
+   width: 100%;
    margin: auto;
-   font-size: 18px;
-   line-height: 1.4em;
+   font-size: 1em;
    background-image: url("");
-   height: 100%;
-   background-attachment: fixed;
+   height: auto;
    background-size: cover;
- 
+ background-color: rgb(251, 235, 210);
+ }
+ .navbar{
+   position: sticky;
+   display: flex;
+   flex-wrap: wrap;
+   
  }
  
- 
+.navbar_items{
+   background-color: rgb(230, 153, 94);
+   color: rgb(137, 71, 34);
+   padding: 15px;
+   flex-grow: 1;
+   text-decoration: none;
+   text-align: center;
+}
+.navbar_items:hover{
+   background-color: rgb(202, 109, 59);
+  
+}
+
+
+
  .banner {
    text-align: center;
    margin: auto;

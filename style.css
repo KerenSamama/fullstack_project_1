@@ -6,7 +6,7 @@ body {
    margin: auto;
    font-size: 1em;
    height: auto;
-   background-color: rgb(251, 235, 210);
+   background-color:rgb(251, 235, 210);
    display: flex;
 
    
@@ -82,52 +82,93 @@ header{
  }
   
 
-
- /*GRID KEREN*/
- .row {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 0 4px;
- }
- 
- /* Create equal columns that sits next to each other */
- .column {
-   flex: 33,333%;
-   max-width: 30%;
-   vertical-align:middle;
- 
+/*Keren*/
+.gallery {
+   background-color: white;
+   display: grid;
+   height: 98vh;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-areas: "photo1 photo2 photo3"
+   "photo4 photo5 photo6"
+   "photo7 photo8 photo9 photo10";
   
- }
- 
- .column img {
-   margin-top: 1px;
-   vertical-align: middle;
-   width:100%;
-
-  
+}
+img{
    
- }
+   max-width: 50%;
 
+}
 
- /*IPAD
- /* Responsive layout - makes a two column-layout instead of four columns */
- @media screen and (max-width: 800px) {
-   .column {
-     flex: 66,6%;
-     max-width:40%;
-     vertical-align:middle;
+.photo1{
+background-color: aliceblue;
+grid-area:photo1;
+}
 
-   }
-   .column img #photo5,.column img #photo5 {
-      
- }
- /*PHONE
- /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 600px) {
-   .column {
-     flex: 100%;
-     max-width: 100%;
-     vertical-align:middle;
-   }
+.photo2{
+   background-color:violet;
+   grid-area:photo2;
+}
+
+.photo3{
+   background-color:aqua;
+   grid-area:photo3;
+}
+.photo4{
+   background-color:blueviolet;
+   grid-area:photo4;
+}
+.photo5{
+   background-color:grey;
+   grid-area:photo5;
+}
+.photo6{
+   background-color:red;
+   grid-area:photo6;
+}
+.photo7{
+   background-color:yellow;
+   grid-area:photo7;
+   
+}
+.photo8{
+   background-color:orange;
+   grid-area:photo8;
+}
+.photo9{
+   background-color:green;
+   grid-area:photo9;
+}
+.photo10{
+   background-color:black;
+   grid-area:photo10;
+}
+
+.
+ @media only screen and (max-width: 600px) {
+   .gallery {
+     display: grid;
+     grid-template-columns:repeat(1, 1fr);
+     grid-template-rows: repeat(6, 200px);
+     grid-template-rows:1;
+     grid-gap: 15px;
+     border: solid black;
+     padding: 5px;
+     margin: 20px,20px,20px,20px;
  }
  
+
+ @media only screen and  (min-width:600px) and (max-width: 900px) {
+   
+  .gallery {
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   grid-template-rows: repeat(8, 5vw);
+   grid-gap: 15px;
+   border: solid black;
+   padding: 5px;
+   margin: 20px,20px,20px,20px;
+}
+
+
+ } 

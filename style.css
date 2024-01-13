@@ -110,6 +110,8 @@ body {
 }
 
 
+
+
 input[type=text], input[type=email], input[list=city], datalist, textarea {
    width: 100%;
    padding: 12px;

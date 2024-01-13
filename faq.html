@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    
-  </head>
-  <body>
-    <nav class="navbar">
-        <a href="./home.html" class="navbar_items">HOME</a>
-        <a href="./activity.html" class="navbar_items">ACTIVITY</a>
-        <a href="./openinghours.html" class="navbar_items">OPENING HOURS</a>
-        <a href="./booktickets.html" class="navbar_items">BOOK TICKETS</a>
-        <a href="./contactus.html" class="navbar_items">CONTACT US</a>
-      </nav>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
-  </body>
+</head>
+
+<body>
+
+  <nav class="navbar flex justify-content-between box-shadow sticky"
+    style="height: 70px; background-color: rgba(255, 249, 237, 0.6);"> <!-- #fff9efad; -->
+    <a class="home_link" href="home.html">
+      <img id="logo_img" src="images/logo.PNG" alt="The farms logo" style="width: 70px;">
+    </a>
+    <div class="flex justify-content-center align-items-center flex-grow-1">
+      <a href="./home.html" class="navbar_items">HOME</a>
+      <a href="./about.html" class="navbar_items">ABOUT</a>
+      <a href="./media.html" class="navbar_items">MEDIA</a>
+      <a href="./faq.html" class="navbar_items">FAQ</a>
+      <a href="./contact.html" class="navbar_items">CONTACT</a>
+    </div>
+  </nav>
+
+</body>
+
+</html>

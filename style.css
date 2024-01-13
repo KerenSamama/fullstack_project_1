@@ -1,43 +1,40 @@
-html{
-   font-size: 20px;
-}
+html,
 body {
-   width: 100%;
-   margin: auto;
+   display: block;
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+}
+
+
+* {
    font-size: 1em;
-   height: auto;
-   background-color:rgb(251, 235, 210);
-   display: flex;
-
-   
-
-   flex-direction: column;
- }
- .navbar{
-   position: sticky;
-   display: flex;
-   flex-wrap: wrap;
-   width: 100%;
-
- }
- 
-.navbar_items{
-   background-color: rgb(230, 153, 94);
-   color: rgb(137, 71, 34);
-   text-decoration-thickness: 5px;
-   padding: 15px;
-   flex-grow: 1;
-   text-decoration: none;
-   text-align: center;
-}
-.navbar_items:hover{
-   background-color: rgb(202, 109, 59);
-  
+   font-family: 'Rubik', sans-serif;
 }
 
-header{
+.flex {
    display: flex;
+
+}
+
+.column {
    flex-direction: column;
+}
+
+.justify-content-center {
+   justify-content: center;
+}
+
+.justify-content-around {
+   justify-content: space-around;
+}
+
+.justify-content-between {
+   justify-content: space-between;
+}
+
+.align-items-center {
    align-items: center;
 }
 .logo_image{
@@ -95,9 +92,7 @@ header{
     text-align: center;
     gap:0.2rem;
 }
-img{
-   
-}
+
 .photo1{
    background-color: aliceblue;
    grid-area: photo1;
@@ -192,48 +187,55 @@ img{
 
 }
 
-.photo1{
-background-color: aliceblue;
-grid-area:photo1;
+.photo1 {
+   background-color: aliceblue;
+   grid-area: photo1;
 }
 
-.photo2{
-   background-color:violet;
-   grid-area:photo2;
+.photo2 {
+   background-color: violet;
+   grid-area: photo2;
 }
 
-.photo3{
-   background-color:aqua;
-   grid-area:photo3;
+.photo3 {
+   background-color: aqua;
+   grid-area: photo3;
 }
-.photo4{
-   background-color:blueviolet;
-   grid-area:photo4;
+
+.photo4 {
+   background-color: blueviolet;
+   grid-area: photo4;
 }
-.photo5{
-   background-color:grey;
-   grid-area:photo5;
+
+.photo5 {
+   background-color: grey;
+   grid-area: photo5;
 }
-.photo6{
-   background-color:red;
-   grid-area:photo6;
+
+.photo6 {
+   background-color: red;
+   grid-area: photo6;
 }
-.photo7{
-   background-color:yellow;
-   grid-area:photo7;
-   
+
+.photo7 {
+   background-color: yellow;
+   grid-area: photo7;
+
 }
-.photo8{
-   background-color:orange;
-   grid-area:photo8;
+
+.photo8 {
+   background-color: orange;
+   grid-area: photo8;
 }
-.photo9{
-   background-color:green;
-   grid-area:photo9;
+
+.photo9 {
+   background-color: green;
+   grid-area: photo9;
 }
-.photo10{
-   background-color:black;
-   grid-area:photo10;
+
+.photo10 {
+   background-color: black;
+   grid-area: photo10;
 }
 
 
@@ -251,17 +253,17 @@ grid-area:photo1;
 }
  
 
- @media only screen and  (min-width:600px) and (max-width: 900px) {
-   
-  .gallery {
-   display: grid;
-   grid-template-columns: repeat(8, 1fr);
-   grid-template-rows: repeat(8, 5vw);
-   grid-gap: 15px;
-   border: solid black;
-   padding: 5px;
-   margin: 20px,20px,20px,20px;
-}
+   @media only screen and (min-width:600px) and (max-width: 900px) {
+
+      .gallery {
+         display: grid;
+         grid-template-columns: repeat(8, 1fr);
+         grid-template-rows: repeat(8, 5vw);
+         grid-gap: 15px;
+         border: solid black;
+         padding: 5px;
+         margin: 20px, 20px, 20px, 20px;
+      }
 
 
  } 

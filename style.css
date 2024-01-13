@@ -20,6 +20,7 @@ body {
 }
 
 .column {
+   display: flex;
    flex-direction: column;
 }
 
@@ -66,7 +67,9 @@ body {
    padding: 10px;
 
 }
-
+.navbar{
+   z-index: 999;
+}
 
 .submit-button:hover, .navbar_items:hover {
    background-color: antiquewhite;
@@ -109,7 +112,10 @@ body {
    padding: 20px;
 }
 
-
+.raw{
+   display: flex;
+   flex-direction: row;
+}
 
 
 input[type=text], input[type=email], input[list=city], datalist, textarea {
@@ -132,6 +138,43 @@ input[type=submit] {
    cursor: pointer;
 
  }
+
+ main .card-img-top{
+   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+   border-radius: 20px;
+
+}
+
+.img-card{
+
+   
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

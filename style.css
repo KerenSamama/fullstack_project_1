@@ -11,6 +11,7 @@ body {
 * {
    font-size: 1em;
    font-family: 'Rubik', sans-serif;
+   color: #362d2d;
 }
 
 .flex {
@@ -46,6 +47,9 @@ body {
    justify-self: center;
 }
 
+.center {
+   margin: auto;
+ }
 
 #logo_img {
    width: 70px;
@@ -63,7 +67,8 @@ body {
 
 }
 
-.navbar_items:hover {
+
+.submit-button:hover, .navbar_items:hover {
    background-color: antiquewhite;
    color: #623218;
 }
@@ -80,13 +85,51 @@ body {
 .fixed{
    position:fixed;
 }
+.sticky{
+   position: sticky;
+}
+
+.contactus li{
+   list-style: none;
+}
+
+.contactus ul{
+   padding: 60px;
+}
+
+.contactus label{
+   cursor: pointer;
+}
+
+.border-radius-5{
+   border-radius: 5px;
+}
+
+.padding-20{
+   padding: 20px;
+}
 
 
+input[type=text], input[type=email], input[list=city], datalist, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
 
+ 
+input[type=submit] {
+   background-color: #fff9efad;
+   padding: 12px 20px;
+   border: solid #362d2d;
+   border-radius: 4px;
+   cursor: pointer;
 
-
-
-
+ }
 
 
 

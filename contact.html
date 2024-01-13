@@ -12,24 +12,24 @@
 <body>
 
   <nav class="navbar flex justify-content-between box-shadow sticky"
-    style="height: 70px; background-color: rgba(255, 249, 237, 0.6);"> <!-- #fff9efad; -->
+    style="top :0; height: 70px; background-color: rgba(255, 249, 237, 0.6);"> <!-- #fff9efad; -->
     <a class="home_link" href="home.html">
       <img id="logo_img" src="images/logo.PNG" alt="The farms logo" style="width: 70px;">
     </a>
     <div class="flex justify-content-center align-items-center flex-grow-1">
-      <a href="./home.html" class="navbar_items">HOME</a>
-      <a href="./about.html" class="navbar_items">ABOUT</a>
-      <a href="./media.html" class="navbar_items">MEDIA</a>
-      <a href="./faq.html" class="navbar_items">FAQ</a>
-      <a href="./contact.html" class="navbar_items">CONTACT</a>
+      <a href="./home.html" class="navbar_items ">HOME</a>
+      <a href="./about.html" class="navbar_items ">ABOUT</a>
+      <a href="./media.html" class="navbar_items ">MEDIA</a>
+      <a href="./faq.html" class="navbar_items ">FAQ</a>
+      <a href="./contact.html" class="navbar_items ">CONTACT US</a>
     </div>
   </nav>
 
 
 
-  <div class="contactus-form">
-    <form action="" method="get">
-      <ul>
+  <div class="center contactus-form padding-20 border-radius-5 " style=" margin-top: 40px;  margin-bottom: 40px; background-color: rgba(255, 249, 237, 0.6); width: 60%;">
+    <form class = "contactus" action="" method="get">
+      <ul class="flex column">
         <li>
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Enter name.." required>
@@ -57,10 +57,10 @@
         </li>
         <li>
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
         </li>
         <li>
-          <input type="submit" value="Submit">
+          <input class = "submit-button" type="submit" value="Submit" >
         </li>
       </ul>
     </form>

@@ -23,11 +23,20 @@ body {
 
 }
 
-.column {
+.flex-raw {
+   display: flex;
+   flex-direction: row;
+}
+
+.flex-column {
    display: flex;
    flex-direction: column;
 }
 
+.flex-space-between {
+   display: flex;
+   justify-content: space-between;
+}
 .justify-content-center {
    justify-content: center;
 }
@@ -116,9 +125,3 @@ body {
 .padding-20 {
    padding: 20px;
 }
-
-.raw {
-   display: flex;
-   flex-direction: row;
-}
-

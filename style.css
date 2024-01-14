@@ -57,8 +57,6 @@ body {
    position: absolute;
    left: 30px;
    top: 0;
-
-
 }
 
 .navbar_items {
@@ -72,11 +70,6 @@ body {
    z-index: 999;
 }
 
-.submit-button:hover,
-.navbar_items:hover {
-   background-color: antiquewhite;
-   color: #623218;
-}
 
 .flex-grow-1 {
    flex-grow: 1;
@@ -122,54 +115,6 @@ body {
    display: flex;
    flex-direction: row;
 }
-
-
-input[type=text],
-input[type=email],
-input[list=city],
-datalist,
-textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
-   margin-top: 6px;
-   margin-bottom: 16px;
-   resize: vertical;
-}
-
-
-input[type=submit] {
-   background-color: #fff9efad;
-   padding: 12px 20px;
-   border: solid #362d2d;
-   border-radius: 4px;
-   cursor: pointer;
-
-}
-
-main .card-img-top {
-   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-   border-radius: 20px;
-
-}
-
-.img-card{
-
-   
-
-
-
-
-
-
-
-}
-
-
-
-
 
 
 

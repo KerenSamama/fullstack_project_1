@@ -147,16 +147,16 @@ input[type=submit] {
 
 .img-card{
 
-   
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 
-
-
-
-
-
-
+  
 }
 
+.grid{
+   display: grid;
+}
 
 
 

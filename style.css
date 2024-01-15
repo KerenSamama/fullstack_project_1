@@ -181,13 +181,13 @@ body {
 }
 
 .icon .fa {
-   color: #f44336;
+   color: rgb(47, 79, 79);
    margin: 0 13px;
    cursor: pointer;
    padding: 18px 0;
 }
 .fa-hreart-o{
-   color: #f44336;
+   color: rgb(47, 79, 79);
 }
 .footer>h4, .footer>p, .footer>div {
    display: flex;

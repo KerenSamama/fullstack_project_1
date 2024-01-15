@@ -1,13 +1,11 @@
-*{
-   margin: 15px;
-   padding: 15px;
-}
-
 .gallery {
+    margin-left: 70px;
+    margin-top: 70px;
+
     display: grid;
     grid-template-columns: repeat(9, auto);
     grid-template-rows: repeat(9, auto);
-    grid-gap: 10px;
+    grid-gap: 50px;
     background-color: #eee;
  
  }
@@ -113,7 +111,7 @@
  }
  
  .videoOfHorses1 {
-    margin-right: 20px;
+    margin-right: 70px;
     border-radius: 30px;
     height: 100%;
     width: 100%;
@@ -123,7 +121,7 @@
  }
  
  .videoOfHorses2 {
-    margin-right: 15px;
+    margin-left: 70px;
     border-radius: 30px;
     height: 100%;
     width: 100%;

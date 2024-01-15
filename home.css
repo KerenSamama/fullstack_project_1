@@ -1,40 +1,41 @@
 @media (max-width:700px) {
-    .raw{
+    .raw {
         flex-direction: column;
     }
-    
+
 }
- 
 
 
 
- /*---------service-------------------*/
- .service{
+
+/*---------service-------------------*/
+.service {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
- }
+}
 
- .service-col{
+.service-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
- }
- .service-col img{
+}
+
+.service-col img {
     width: 100%;
     border-radius: 10px;
-    
- }
- .service-col p{
+
+}
+
+.service-col p {
     padding: 0;
- }
- .service-col h3{
+}
+
+.service-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
 
- }
- 
- 
+}

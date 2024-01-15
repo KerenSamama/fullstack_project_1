@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@media(max-width:767px){
+   
+   .row {
+      flex-direction: column;
+  }
+
+}
+
 
 html,
 body {
@@ -20,6 +28,22 @@ body {
 
 }
 
+.hero-btn{
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 12px 34px;
+   font-size: 13px;
+   background: transparent;
+   position: relative;
+   cursor: pointer;
+}
+.hero-btn:hover{
+   border: 1px solid rgb(47, 79, 79);
+   background: rgb(47, 79, 79);
+   transition: 0.7s;
+}
 .flex {
    display: flex;
 
@@ -83,6 +107,10 @@ body {
    display: inline-block;
 }
 
+.navbar_items:hover{
+   background-color: antiquewhite;
+}
+
 .navbar {
   
    z-index: 999;
@@ -134,4 +162,36 @@ body {
 
 .padding-20 {
    padding: 20px;
+}
+
+
+/*-----footer -----*/
+
+
+.footer {
+   width: 100%;
+   text-align: center;
+   padding: 30px 0;
+}
+
+.footer h4 {
+   margin-bottom: 25px;
+   margin-top: 20px;
+   font-weight: 600;
+}
+
+.icon .fa {
+   color: #f44336;
+   margin: 0 13px;
+   cursor: pointer;
+   padding: 18px 0;
+}
+.fa-hreart-o{
+   color: #f44336;
+}
+.footer>h4, .footer>p, .footer>div {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  
 }

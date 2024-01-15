@@ -1,5 +1,13 @@
-
+@media (max-width:700px) {
+    .raw{
+        flex-direction: column;
+    }
+    
+}
  
+
+
+
  /*---------service-------------------*/
  .service{
     width: 80%;

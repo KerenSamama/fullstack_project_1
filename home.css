@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 p {
     margin-bottom: 50px;
 }
@@ -43,7 +44,9 @@ p {
     text-align: left;
 
 }
-
+section{
+    font-family: 'Rubik', sans-serif;
+}
 
 /*---------testemonials-------------------*/
 .testemonials {

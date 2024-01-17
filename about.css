@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.container{
+    width:100%;
+    margin:10px auto;
+    padding:20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom:70px ;
+
+
+}
+.about-content{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.image{
+    flex:1;
+    margin-right:20px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+
+}
+.image img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+.content{
+    flex:1;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+}
+
+.content p{
+    font-size: 15px; 
+    line-height: 1.6;
+    margin-top: 100px;
+    
+
+}
+
+.readmore
+{
+    margin-top: 20px;
+    display: inline-block;
+    padding:10px 20px;
+    background-color:#4caf50 ;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    color:#fff;
+    transition: 0.3s ease;
+
+}
+
+.readmore:hover{
+    background-color:#ccbb25 ;
+
+}
+
+@media screen and (max-width:768px){
+    .about-content{
+
+        flex-direction: column;
+
+    }
+
+    .image , content{
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+    .title{
+        font-size: 38px;
+        margin-bottom: 50px;
+
+    }
+
+    #map{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+      }
+}
